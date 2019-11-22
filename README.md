@@ -27,24 +27,26 @@ var array = require('lodash/array');
 
 ## 10 useful functions to know
 
-(According to [this Medium article](https://medium.com/voobans-tech-stories/10-lodash-functions-everyone-should-know-334b372aec5d).)
+(According to [this Medium article](https://medium.com/voobans-tech-stories/10-lodash-functions-everyone-should-know-334b372aec5d):)
 
-[_.assign](https://lodash.com/docs/#assign)
+[`_.assign(`object, [sources]`)`](https://lodash.com/docs/#assign)
 
-[_.times](https://lodash.com/docs/#times)
+[`_.times(`n, [iteratee=_.identity]`)`](https://lodash.com/docs/#times)
 
-[_.debounce](https://lodash.com/docs/#debounce)
+[`_.debounce(`func, [wait=0], [options={}]`)`](https://lodash.com/docs/#debounce)
 
-[_.find](https://lodash.com/docs/#find)
+[`_.find(`collection, [predicate=_.identity], [fromIndex=0]`)`](https://lodash.com/docs/#find)
 
-[_.get](https://lodash.com/docs/#get) and [._set](https://lodash.com/docs/#set)
+[`_.get(`object, path, [defaultValue]`)`](https://lodash.com/docs/#get)
 
-[_.deburr](https://lodash.com/docs/#deburr)
+[`_.set(`object, path, value`)`](https://lodash.com/docs/#set)
 
-[_.keyBy](https://lodash.com/docs/#keyBy)
+[`_.deburr(`[string='']`)`](https://lodash.com/docs/#deburr)
 
-[_.reduce](https://lodash.com/docs/#reduce)
+[`_.keyBy(`collection, [iteratee=_.identity]`)`](https://lodash.com/docs/#keyBy)
 
-[_.cloneDeep](https://lodash.com/docs/#cloneDeep)
+[`_.reduce(`collection, [iteratee=_.identity], [accumulator]`)`](https://lodash.com/docs/#reduce)
 
-[_.sortedUniq](https://lodash.com/docs/#sortedUniq)
+[`_.cloneDeep(`value`)`](https://lodash.com/docs/#cloneDeep)
+
+[`_.sortedUniq(`array`)`](https://lodash.com/docs/#sortedUniq)
