@@ -2,7 +2,7 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-Note: Lodash is is a superset of [Underscore](https://github.com/hchiam/learning-underscore).
+Note: Lodash is is a superset of [Underscore](https://github.com/hchiam/learning-underscore), so Lodash should be able to [run everything that Underscore can](https://github.com/hchiam/learning-underscore/blob/master/index.js), just [`require('lodash')`](https://github.com/hchiam/learning-lodash/blob/master/index.js) instead.
 
 Tutorial: <https://medium.com/voobans-tech-stories/10-lodash-functions-everyone-should-know-334b372aec5d>
 
