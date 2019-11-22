@@ -29,24 +29,24 @@ var array = require('lodash/array');
 
 (According to [this Medium article](https://medium.com/voobans-tech-stories/10-lodash-functions-everyone-should-know-334b372aec5d):)
 
-[`_.assign(`object, [sources]`)`](https://lodash.com/docs/#assign)
+**[`_.cloneDeep(`value`)`](https://lodash.com/docs/#cloneDeep)**
 
-[`_.times(`n, [iteratee=_.identity]`)`](https://lodash.com/docs/#times)
+**[`_.times(`n, [iteratee=_.identity]`)`](https://lodash.com/docs/#times)**
 
-[`_.debounce(`func, [wait=0], [options={}]`)`](https://lodash.com/docs/#debounce)
+**[`_.find(`collection, [predicate=_.identity], [fromIndex=0]`)`](https://lodash.com/docs/#find)**
 
-[`_.find(`collection, [predicate=_.identity], [fromIndex=0]`)`](https://lodash.com/docs/#find)
+**[`_.sortedUniq(`array`)`](https://lodash.com/docs/#sortedUniq)**
+
+**[`_.debounce(`func, [wait=0], [options={}]`)`](https://lodash.com/docs/#debounce)**
+
+**[`_.reduce(`collection, [iteratee=_.identity], [accumulator]`)`](https://lodash.com/docs/#reduce)** (Note: also works on objects!)
+
+[`_.keyBy(`collection, [iteratee=_.identity]`)`](https://lodash.com/docs/#keyBy)
 
 [`_.get(`object, path, [defaultValue]`)`](https://lodash.com/docs/#get)
 
 [`_.set(`object, path, value`)`](https://lodash.com/docs/#set)
 
+[`_.assign(`object, [sources]`)`](https://lodash.com/docs/#assign)
+
 [`_.deburr(`[string='']`)`](https://lodash.com/docs/#deburr)
-
-[`_.keyBy(`collection, [iteratee=_.identity]`)`](https://lodash.com/docs/#keyBy)
-
-[`_.reduce(`collection, [iteratee=_.identity], [accumulator]`)`](https://lodash.com/docs/#reduce)
-
-[`_.cloneDeep(`value`)`](https://lodash.com/docs/#cloneDeep)
-
-[`_.sortedUniq(`array`)`](https://lodash.com/docs/#sortedUniq)
