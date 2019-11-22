@@ -13,8 +13,8 @@ Lodash API docs: <https://lodash.com/docs/>
 ## Setup
 
 ```bash
-npm i -g npm
-npm i --save lodash
+npm install -g npm
+npm install --save lodash
 ```
 
 ```js
