@@ -24,3 +24,27 @@ var _ = require('lodash/core');
 // or
 var array = require('lodash/array');
 ```
+
+## 10 useful functions to know
+
+(According to [this Medium article](https://medium.com/voobans-tech-stories/10-lodash-functions-everyone-should-know-334b372aec5d).)
+
+[_.assign](https://lodash.com/docs/#assign)
+
+[_.times](https://lodash.com/docs/#times)
+
+[_.debounce](https://lodash.com/docs/#debounce)
+
+[_.find](https://lodash.com/docs/#find)
+
+[_.get](https://lodash.com/docs/#get) and [._set](https://lodash.com/docs/#set)
+
+[_.deburr](https://lodash.com/docs/#deburr)
+
+[_.keyBy](https://lodash.com/docs/#keyBy)
+
+[_.reduce](https://lodash.com/docs/#reduce)
+
+[_.cloneDeep](https://lodash.com/docs/#cloneDeep)
+
+[_.sortedUniq](https://lodash.com/docs/#sortedUniq)
